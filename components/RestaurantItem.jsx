@@ -9,6 +9,7 @@ const RestaurantItem = ({ id, pictureId, name, description }) => {
   return (
     <Card>
       <Image
+        height="250px"
         src={`https://restaurant-api.dicoding.dev/images/small/${pictureId}`}
         alt={name}
       />
